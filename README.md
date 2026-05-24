@@ -1,4 +1,4 @@
-# Celebal Data Science Internship
+# Celebal Data Science Internship Assignments
 
 This repository contains my weekly assignments and practical work completed during the Celebal Technologies Data Science Internship.
 
@@ -6,7 +6,7 @@ This repository contains my weekly assignments and practical work completed duri
 
 ### Week 1 — ML Foundations ✅
 
-**Topics Covered:**
+#### Topics Covered
 - Python Fundamentals
 - NumPy
 - Pandas
@@ -15,7 +15,7 @@ This repository contains my weekly assignments and practical work completed duri
 - Probability Theory
 - Model Monitoring Concepts
 
-**Key Work Completed:**
+#### Key Work Completed
 - Implemented Python functions, control flow logic, exception handling, and lambda functions
 - Worked with NumPy arrays, reshaping, indexing, slicing, and matrix operations
 - Performed data analysis using Pandas including filtering, grouping, missing value handling, and indexing
@@ -24,8 +24,6 @@ This repository contains my weekly assignments and practical work completed duri
 - Explored distribution testing, stationarity checks, and Central Limit Theorem implementation
 - Implemented Population Stability Index (PSI) for model monitoring and distribution shift detection
 - Applied probability concepts including conditional probability, Bayes’ Theorem, and probability distributions
-
----
 
 ## Tools & Libraries Used
 - Python
@@ -37,4 +35,5 @@ This repository contains my weekly assignments and practical work completed duri
 - Statsmodels
 
 ## Author
-Akshit Sharma
+**Akshit Sharma**  
+Data Science Intern
