@@ -2,3 +2,6 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 .env
+.ipynb_checkpoints/
+anaconda_projects/
+week-2-ml-pipeline/anaconda_projects/
