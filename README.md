@@ -13,6 +13,7 @@ celebal-data-science-internship-assignments/
 ├── week-2-ml-pipeline/
 ├── week-3-customer-intelligence/
 ├── week-4-cifar10-image-classification/
+├── week-5-text-generation-rnn-lstm-gru/
 ├── README.md
 └── requirements.txt
 ```
@@ -169,95 +170,6 @@ Country Data Dataset
 
 Built and compared Artificial Neural Network (ANN) and Convolutional Neural Network (CNN) models on the CIFAR-10 image classification dataset.
 
-The project focuses on understanding how different deep learning architectures perform on image data and how training strategies influence model performance.
-
-## Objectives
-
-* Build an ANN model for image classification
-* Build a CNN model for image classification
-* Compare ANN and CNN performance
-* Analyze learning curves and validation accuracy
-* Experiment with training optimization strategies
-* Understand the importance of feature extraction in image recognition
-
-## Dataset
-
-### CIFAR-10 Dataset
-
-Classes:
-
-* Airplane
-* Automobile
-* Bird
-* Cat
-* Deer
-* Dog
-* Frog
-* Horse
-* Ship
-* Truck
-
-Dataset Size:
-
-* 50,000 Training Images
-* 10,000 Test Images
-* Image Size: 32 × 32 × 3
-
-## Models Implemented
-
-### Artificial Neural Network (ANN)
-
-Features:
-
-* Dense Layers
-* ReLU Activation
-* Dropout Regularization
-* Softmax Output Layer
-
-Result:
-
-* Test Accuracy: **42.79%**
-
-### Convolutional Neural Network (CNN)
-
-Features:
-
-* Convolution Layers
-* Batch Normalization
-* Max Pooling Layers
-* Dropout Regularization
-* Dense Classification Layer
-
-Result:
-
-* Test Accuracy: **67.93%**
-
-## Advanced Training Experiments
-
-### CNN with Increased Epochs (20 Epochs)
-
-Result:
-
-* Test Accuracy: **69.11%**
-
-### CNN with Early Stopping
-
-Result:
-
-* Test Accuracy: **71.26%**
-
-### CNN with Data Augmentation
-
-Techniques Used:
-
-* Random Flip
-* Random Rotation
-* Random Zoom
-
-Result:
-
-* Test Accuracy: **64.24%**
-
 ## Performance Comparison
 
 | Model                   | Test Accuracy |
@@ -270,12 +182,10 @@ Result:
 
 ## Key Findings
 
-* ANN treats images as flattened vectors and struggles to capture spatial information.
-* CNN automatically learns image features through convolution operations.
-* CNN significantly outperformed ANN on CIFAR-10 classification.
-* Increasing epochs improved performance but also increased training time.
-* Early Stopping achieved the best overall generalization performance.
-* Data Augmentation improved model robustness but required additional training for optimal results.
+* CNN significantly outperformed ANN on image classification tasks.
+* Early Stopping achieved the best performance.
+* CNN effectively captured spatial image features.
+* Data augmentation improved robustness but required additional training.
 
 ## Libraries Used
 
@@ -284,6 +194,96 @@ Result:
 * NumPy
 * Pandas
 * Matplotlib
+
+---
+
+# Week 5 — Text Generation using RNN, LSTM & GRU ✅
+
+## Project Overview
+
+Built and compared three sequence learning architectures: Vanilla RNN, LSTM, and GRU for next-word prediction and text generation.
+
+The project focuses on understanding how recurrent neural networks learn language patterns, grammar, contextual dependencies, and sequence information from text data.
+
+## Objectives
+
+* Build a Vanilla RNN model
+* Build an LSTM model
+* Build a GRU model
+* Compare sequence learning capabilities
+* Generate text using trained models
+* Analyze training loss behavior
+
+## Dataset
+
+### Custom Text Corpus
+
+A custom text corpus was used for:
+
+* Tokenization
+* Sequence Creation
+* Next Word Prediction
+* Text Generation
+
+## Models Implemented
+
+### Vanilla RNN
+
+* Embedding Layer
+* SimpleRNN Layer
+* Dense Output Layer
+
+### LSTM
+
+* Embedding Layer
+* LSTM Layer
+* Dense Output Layer
+
+### GRU
+
+* Embedding Layer
+* GRU Layer
+* Dense Output Layer
+
+## Beginner Tasks Completed
+
+### Task 1
+
+* Replaced the original corpus with a custom paragraph
+
+### Task 2
+
+* Increased embedding dimension from 32 to 64
+
+### Task 3
+
+* Increased training epochs from 100 to 200
+
+### Task 4
+
+* Increased hidden units from 64 to 128
+
+### Task 5
+
+* Generated 10 words instead of 5 during text generation
+
+## Key Findings
+
+* Vanilla RNN learned basic sequential patterns but struggled with long-term memory.
+* LSTM generated more coherent text by preserving contextual information.
+* GRU achieved performance similar to LSTM with fewer parameters.
+* Increasing embedding dimensions improved word representations.
+* Higher epochs reduced training loss and improved learning.
+* Larger hidden layers improved model capacity.
+* LSTM and GRU handled long-term dependencies significantly better than Vanilla RNN.
+
+## Libraries Used
+
+* TensorFlow
+* Keras
+* NumPy
+* Matplotlib
+* Pandas
 
 ---
 
@@ -297,7 +297,12 @@ Result:
 * Deep Learning
 * Artificial Neural Networks (ANN)
 * Convolutional Neural Networks (CNN)
-* Computer Vision
+* Recurrent Neural Networks (RNN)
+* Long Short-Term Memory (LSTM)
+* Gated Recurrent Units (GRU)
+* Natural Language Processing (NLP)
+* Text Generation
+* Sequence Modeling
 * Data Preprocessing
 * Feature Engineering
 * Model Evaluation
