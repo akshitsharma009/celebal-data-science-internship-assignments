@@ -323,6 +323,50 @@ A custom text corpus was used for:
 * GitHub
 * Anaconda
 
+# Week 6 — Autoencoder for Image Denoising (MNIST) ✅
+
+## Project Overview
+
+Built a Deep Learning Autoencoder capable of reconstructing and denoising handwritten digit images from the MNIST dataset.
+
+The project demonstrates how Autoencoders learn compressed latent representations and reconstruct images while removing noise.
+
+## Objectives
+
+- Build an Autoencoder architecture
+- Learn latent image representations
+- Reconstruct MNIST images
+- Perform image denoising
+- Compare original and reconstructed outputs
+
+## Dataset
+
+MNIST Handwritten Digits Dataset
+
+- 60,000 Training Images
+- 10,000 Test Images
+- Image Size: 28×28
+
+## Models Explored
+
+- Feed Forward Autoencoder
+- Convolutional Autoencoder
+- Upsampled CNN Autoencoder
+
+## Key Findings
+
+- Autoencoders successfully reconstructed handwritten digits.
+- CNN-based Autoencoders produced better image quality.
+- Learned latent representations captured important visual features.
+- Reconstructed images retained digit structure while reducing noise.
+
+## Libraries Used
+
+- PyTorch
+- NumPy
+- Matplotlib
+- Torchvision
+
 ---
 
 # Author
